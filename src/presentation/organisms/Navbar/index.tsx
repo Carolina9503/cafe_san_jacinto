@@ -21,7 +21,7 @@ export function Navbar() {
   const { totalItems, openCart } = useCart()
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-coffee-200/60 bg-beige/85 backdrop-blur-md">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-coffee-200/60 bg-paper shadow-soft">
       <Container className="flex h-20 items-center justify-between">
         <a href="#inicio" aria-label="Café San Jacinto — inicio">
           <Logo />
@@ -66,7 +66,7 @@ export function Navbar() {
       </Container>
 
       {isMenuOpen && (
-        <nav className="border-t border-coffee-200/60 bg-beige px-5 py-6 lg:hidden">
+        <nav className="border-t border-coffee-200/60 bg-paper px-5 py-6 lg:hidden">
           <div className="flex flex-col gap-5">
             {navItems.map((item) => (
               <NavLink key={item.href} href={item.href} onClick={() => setIsMenuOpen(false)}>

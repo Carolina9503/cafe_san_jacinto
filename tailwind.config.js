@@ -50,6 +50,7 @@ export default {
           secondary: '#6E6259',
         },
         beige: '#F5F1EB',
+        paper: '#FBF4E4',
       },
       fontFamily: {
         display: ['"Playfair Display"', 'Georgia', 'serif'],
