@@ -27,7 +27,7 @@ export function Navbar() {
           <Logo />
         </a>
 
-        <nav className="hidden items-center gap-8 lg:flex">
+        <nav className="hidden items-center gap-6 xl:flex">
           {navItems.map((item) => (
             <NavLink key={item.href} href={item.href}>
               {item.label}
@@ -58,7 +58,7 @@ export function Navbar() {
             type="button"
             aria-label="Abrir menú"
             onClick={() => setIsMenuOpen((open) => !open)}
-            className="inline-flex h-11 w-11 items-center justify-center rounded-full text-coffee-700 hover:bg-coffee-700/8 lg:hidden"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-full text-coffee-700 hover:bg-coffee-700/8 xl:hidden"
           >
             {isMenuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -66,7 +66,7 @@ export function Navbar() {
       </Container>
 
       {isMenuOpen && (
-        <nav className="border-t border-coffee-200/60 bg-paper px-5 py-6 lg:hidden">
+        <nav className="border-t border-coffee-200/60 bg-paper px-5 py-6 xl:hidden">
           <div className="flex flex-col gap-5">
             {navItems.map((item) => (
               <NavLink key={item.href} href={item.href} onClick={() => setIsMenuOpen(false)}>
