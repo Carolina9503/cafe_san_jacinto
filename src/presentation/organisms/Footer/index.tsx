@@ -19,9 +19,9 @@ const linkColumns = [
   {
     title: 'Ayuda',
     links: [
+      { label: 'Puntos de venta', href: '#distribucion' },
       { label: 'Testimonios', href: '#testimonios' },
       { label: 'Contacto', href: '#contacto' },
-      { label: 'Envíos', href: '#contacto' },
       { label: 'Preguntas frecuentes', href: '#contacto' },
     ],
   },

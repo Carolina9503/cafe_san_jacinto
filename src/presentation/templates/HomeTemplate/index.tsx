@@ -4,6 +4,7 @@ import { HistoriaSection } from '@/presentation/organisms/HistoriaSection'
 import { NuestroCafeSection } from '@/presentation/organisms/NuestroCafeSection'
 import { BeneficiosSection } from '@/presentation/organisms/BeneficiosSection'
 import { ProductosSection } from '@/presentation/organisms/ProductosSection'
+import { DistribucionSection } from '@/presentation/organisms/DistribucionSection'
 import { TestimoniosSection } from '@/presentation/organisms/TestimoniosSection'
 import { ContactForm } from '@/presentation/organisms/ContactForm'
 import { Footer } from '@/presentation/organisms/Footer'
@@ -20,6 +21,7 @@ export function HomeTemplate() {
         <NuestroCafeSection />
         <BeneficiosSection />
         <ProductosSection />
+        <DistribucionSection />
         <TestimoniosSection />
         <ContactForm />
       </main>

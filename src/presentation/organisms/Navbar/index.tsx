@@ -11,6 +11,7 @@ const navItems = [
   { label: 'Nuestra historia', href: '#historia' },
   { label: 'Nuestro café', href: '#cafe' },
   { label: 'Productos', href: '#productos' },
+  { label: 'Puntos de venta', href: '#distribucion' },
   { label: 'Testimonios', href: '#testimonios' },
   { label: 'Contacto', href: '#contacto' },
 ]
