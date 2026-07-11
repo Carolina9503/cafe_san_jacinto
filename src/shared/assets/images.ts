@@ -1,0 +1,7 @@
+export { default as logoImg } from '@/assets/logo.webp'
+export { default as cultivoImg } from '@/assets/cultivo_cafe.webp'
+export { default as plantaCafeImg } from '@/assets/planta_cafe.webp'
+export { default as plantaCafeRojoImg } from '@/assets/planta_cafe_rojo.webp'
+export { default as plantaGranosImg } from '@/assets/planta_granos_rojos_verdes.webp'
+export { default as tazaCafeImg } from '@/assets/taza_cafe.webp'
+export { default as empaqueImg } from '@/assets/empaque.webp'
