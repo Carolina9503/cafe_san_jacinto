@@ -19,7 +19,7 @@ const steps = [
   {
     icon: Flame,
     title: 'Tueste artesanal',
-    description: 'Tostado en perol, en pequeños lotes, tal como lo hace Doña Rosa desde el primer día.',
+    description: 'Tostado en perol, en pequeños lotes, tal como lo hace Rosa desde el primer día.',
   },
   {
     icon: Package,

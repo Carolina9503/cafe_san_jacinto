@@ -3,7 +3,7 @@ import type { DistributionPoint } from '../../domain/entities/DistributionPoint'
 export const distributionPointsData: DistributionPoint[] = [
   {
     id: 'finca-dona-rosa',
-    city: 'Finca de Doña Rosa',
+    city: 'Finca de Rosa',
     department: 'Vereda cafetera, Carcasí, Santander',
     description: 'El origen: visita la finca y compra el café directo donde se cultiva y se tuesta.',
     type: 'origen',

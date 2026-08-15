@@ -16,7 +16,7 @@ export function DistribucionSection() {
         <SectionHeading
           eyebrow="Dónde encontrarnos"
           title="Puntos de distribución autorizados"
-          description="Desde la finca en Carcasí hasta tu ciudad: así de lejos ha llegado el café de Doña Rosa."
+          description="Desde la finca en Carcasí hasta tu ciudad: así de lejos ha llegado el café de Rosa."
         />
 
         <div className="mx-auto mt-16 grid max-w-4xl gap-5 sm:grid-cols-2">

@@ -14,11 +14,11 @@ export function HistoriaSection() {
           <div>
             <SectionHeading
               eyebrow="Nuestra historia"
-              title="La historia de Doña Rosa"
+              title="La historia de Rosa"
               align="left"
             />
             <Text variant="secondary" className="mt-6">
-              Todo comenzó cuando Doña Rosa, líder comunitaria de Carcasí, aceptó el reto de
+              Todo comenzó cuando Rosa, líder comunitaria de Carcasí, aceptó el reto de
               formar un proyecto de café con el SENA. De casi treinta personas inscritas, solo
               ella y su esposo, don Ceferino Daza, lo sacaron adelante: sembrando, cuidando y
               cosechando cada mata con sus propias manos, hasta convertirlo en el café que hoy
@@ -30,7 +30,7 @@ export function HistoriaSection() {
                 &ldquo;Mi sueño es llegar a vender un café de excelente calidad, a buen precio, y
                 que sea reconocido en toda Colombia.&rdquo;
               </Text>
-              <p className="mt-2 text-sm text-ink-secondary">— Doña Rosa, fundadora</p>
+              <p className="mt-2 text-sm text-ink-secondary">— Rosa, fundadora</p>
             </blockquote>
 
             <div className="relative mt-12 aspect-[4/3] overflow-hidden rounded-2xl shadow-card">

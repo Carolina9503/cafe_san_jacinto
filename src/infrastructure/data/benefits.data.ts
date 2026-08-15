@@ -12,13 +12,13 @@ export const benefitsData: Benefit[] = [
     id: 'b2',
     icon: Flame,
     title: 'Tueste artesanal',
-    description: 'Doña Rosa tuesta cada lote en perol y lo muele a mano, igual que desde el primer día.',
+    description: 'Rosa tuesta cada lote en perol y lo muele a mano, igual que desde el primer día.',
   },
   {
     id: 'b3',
     icon: Sprout,
     title: 'Cultivo familiar',
-    description: 'Sembrado y cosechado mata por mata por Doña Rosa y don Ceferino, desde el semillero.',
+    description: 'Sembrado y cosechado mata por mata por Rosa y don Ceferino, desde el semillero.',
   },
   {
     id: 'b4',

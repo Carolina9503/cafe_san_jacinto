@@ -4,16 +4,16 @@ export const historyData: HistoryMilestone[] = [
   {
     id: 'h1',
     stage: 'El llamado',
-    title: 'Doña Rosa acepta el reto',
+    title: 'Rosa acepta el reto',
     description:
-      'Como presidenta de junta comunal en Carcasí, don Germán Eugenio Jurado la llamó para liderar un proyecto de café con el SENA. Doña Rosa recorrió casa por casa invitando a sus vecinos a inscribirse: alcanzó a anotar cerca de 29 personas.',
+      'Como presidenta de junta comunal en Carcasí, don Germán Eugenio Jurado la llamó para liderar un proyecto de café con el SENA. Rosa recorrió casa por casa invitando a sus vecinos a inscribirse: alcanzó a anotar cerca de 29 personas.',
   },
   {
     id: 'h2',
     stage: 'El semillero',
     title: 'De casi 30 personas, solo tres siguieron',
     description:
-      'Cuando la profesora pidió comprar la semilla, muchos se retiraron. Doña Rosa puso la plata de su bolsillo, y junto a su esposo, don Ceferino Daza, cargaron arena del río y cortaron tablas para armar el semillero con sus propias manos.',
+      'Cuando la profesora pidió comprar la semilla, muchos se retiraron. Rosa puso la plata de su bolsillo, y junto a su esposo, don Ceferino Daza, cargaron arena del río y cortaron tablas para armar el semillero con sus propias manos.',
   },
   {
     id: 'h3',
@@ -27,7 +27,7 @@ export const historyData: HistoryMilestone[] = [
     stage: 'La sombra',
     title: 'Tártago y álamos para proteger el cafetal',
     description:
-      'Sin árboles todavía, Doña Rosa esparció semilla de tártago por todo el terreno para darle sombra rápida al café mientras crecían los álamos que sembraron después.',
+      'Sin árboles todavía, Rosa esparció semilla de tártago por todo el terreno para darle sombra rápida al café mientras crecían los álamos que sembraron después.',
   },
   {
     id: 'h5',
@@ -41,6 +41,6 @@ export const historyData: HistoryMilestone[] = [
     stage: 'Hoy',
     title: 'Café San Jacinto, hecho con sus manos',
     description:
-      'Hoy Doña Rosa tuesta el café en perol, lo muele y lo empaca ella misma. Su sueño: llevar un café de excelente calidad, a buen precio, a toda Colombia.',
+      'Hoy Rosa tuesta el café en perol, lo muele y lo empaca ella misma. Su sueño: llevar un café de excelente calidad, a buen precio, a toda Colombia.',
   },
 ]
