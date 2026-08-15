@@ -30,13 +30,20 @@ const steps = [
 
 export function NuestroCafeSection() {
   return (
-    <section id="cafe" className="relative overflow-hidden bg-coffee-900 py-24 md:py-32">
+    <section id="cafe" className="relative isolate overflow-hidden bg-coffee-900 py-24 md:py-32">
+      {/* Softly blurred so the photograph keeps its colour and depth without fighting the copy.
+          scale-105 hides the transparent fringe the blur leaves at the edges. */}
       <img
         src={plantaGranosImg}
         alt="Granos de café madurando en la planta"
-        className="absolute inset-0 h-full w-full object-cover opacity-25"
+        className="absolute inset-0 h-full w-full scale-105 object-cover blur-[3px] saturate-[1.1]"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-coffee-950/85 via-coffee-900/90 to-coffee-950/95" />
+
+      {/* Even scrim: full-width copy needs uniform legibility, with a touch of vertical depth */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(27,18,12,0.88)_0%,rgba(27,18,12,0.78)_38%,rgba(27,18,12,0.80)_70%,rgba(27,18,12,0.90)_100%)]" />
+
+      {/* Warm bloom, echoing the hero */}
+      <div className="absolute inset-0 mix-blend-screen bg-[radial-gradient(60%_50%_at_50%_0%,rgba(223,184,71,0.16)_0%,transparent_70%)]" />
 
       <Container className="relative">
         <SectionHeading
@@ -61,7 +68,7 @@ export function NuestroCafeSection() {
               <h3 className="mt-4 font-display text-lg font-medium text-coffee-50">
                 {step.title}
               </h3>
-              <Text variant="body" className="mt-2 text-sm text-coffee-100/70">
+              <Text variant="body" className="mt-2 text-sm text-coffee-100/85">
                 {step.description}
               </Text>
             </div>
